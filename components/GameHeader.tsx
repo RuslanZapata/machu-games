@@ -40,7 +40,7 @@ export default function GameHeader({
           <View className="flex-row space-x-2">
             <TouchableOpacity
               onPress={onTogglePlay}
-              className="bg-retro-green p-2 rounded"
+              className="bg-retro-green p-2 rounded mr-2"
             >
               {isPlaying ? (
                 <Pause size={20} color="#1a1a1a" />
