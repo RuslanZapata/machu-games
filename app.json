@@ -16,9 +16,22 @@
       "output": "single",
       "favicon": "./assets/images/icon.png"
     },
-    "plugins": ["expo-router", "expo-font", "expo-web-browser"],
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-web-browser"
+    ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "234eedc2-c19d-4660-b919-f62d7cb664e3"
+      }
+    },
+    "android": {
+      "package": "com.ruslanzapata.gamesclassic"
     }
   }
 }
